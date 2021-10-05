@@ -1,3 +1,2 @@
-module github.com/freshman-tech/news-demo-starter-files
-
-go 1.15
+module github.com/RyanRossEdwards/go-news-app
+go 1.17
