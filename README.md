@@ -9,6 +9,6 @@ https://freshman.tech/web-development-with-go/
 
 This allows you to define your application’s environment variables in a .env file.
 
-```terminal
-$ go get github.com/joho/godotenv
+```bash
+go get github.com/joho/godotenv
 ```
