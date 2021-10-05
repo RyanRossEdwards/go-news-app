@@ -1,6 +1,9 @@
 # Binary for app
 go-news-app
 
+# Temporary builds from fresh
+/tmp/
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
