@@ -12,3 +12,11 @@ This allows you to define your application’s environment variables in a .env f
 ```bash
 go get github.com/joho/godotenv
 ```
+
+`fresh` builds and runs your web server each time you create, modify or delete a Go or template file in the project.
+
+To use, run the `fresh` command in the root directory.
+
+```bash
+go get github.com/pilu/fresh
+```
