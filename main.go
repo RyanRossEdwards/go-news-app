@@ -9,7 +9,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("<h1>Hello World!</h1>"))
 }
 
-func main {
+func main() {
 	// attempt to set the port variable based on the PORT environment variable
 	port := os.Getenv("PORT")
 	// Getenv returns empty string if environment variable not present
