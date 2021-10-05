@@ -1,3 +1,6 @@
+# Binary for app
+go-news-app
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
