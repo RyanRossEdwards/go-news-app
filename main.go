@@ -1,6 +1,7 @@
 package main
 
 import (
+	"html/template"
 	"log"
 	"net/http"
 	"os"
@@ -8,8 +9,13 @@ import (
 	"github.com/joho/godotenv"
 )
 
+// template.ParseFiles parses the index.html file in root
+// template.Must so code panics
+var tpl = template.Must(template.ParseFiles("index.html"))
+
 func indexHandler(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("<h1>Hello World!</h1>"))
+	//w.Write([]byte("<h1>Hello World!</h1>"))
+	tpl.Execute(w, nil)
 }
 
 func main() {
