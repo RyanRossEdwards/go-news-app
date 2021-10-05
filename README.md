@@ -5,6 +5,8 @@ https://freshman.tech/web-development-with-go/
 
 ## Libraries
 
+### godotenv
+
 `godotenv` is a port of the Ruby dotenv library.
 
 This allows you to define your application’s environment variables in a .env file.
@@ -12,6 +14,8 @@ This allows you to define your application’s environment variables in a .env f
 ```bash
 go get github.com/joho/godotenv
 ```
+
+### fresh
 
 `fresh` builds and runs your web server each time you create, modify or delete a Go or template file in the project.
 
